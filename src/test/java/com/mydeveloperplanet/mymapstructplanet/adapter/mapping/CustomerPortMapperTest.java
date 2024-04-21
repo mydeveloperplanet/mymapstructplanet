@@ -2,14 +2,12 @@ package com.mydeveloperplanet.mymapstructplanet.adapter.mapping;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
+import com.mydeveloperplanet.mymapstructplanet.model.Customer;
 import com.mydeveloperplanet.mymapstructplanet.model.CustomerFullData;
 import com.mydeveloperplanet.mymapstructplanet.port.dto.AddressDto;
 import com.mydeveloperplanet.mymapstructplanet.port.dto.CustomerDto;
-//import com.mydeveloperplanet.mymapstructplanet.service.domain.Address;
-import com.mydeveloperplanet.mymapstructplanet.model.Customer;
 
 import org.junit.jupiter.api.Test;
-import org.openapitools.jackson.nullable.JsonNullable;
 
 class CustomerPortMapperTest {
 
